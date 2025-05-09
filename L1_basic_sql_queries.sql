@@ -168,3 +168,4 @@ FROM Kocury
 START WITH myszy_extra IS NULL AND ABS(MONTHS_BETWEEN(TO_DATE('2023-06-29', 'YYYY-MM-DD'), w_stadku_od)) / 12 > 14 AND plec = 'M'
 CONNECT BY PRIOR szef = pseudo;
 
+

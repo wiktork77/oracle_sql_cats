@@ -74,3 +74,5 @@ ENABLE CONSTRAINT Bandy_szb_fk;
 
 ALTER TABLE Kocury
 ENABLE CONSTRAINT Kocury_sz_fk;
+
+COMMIT;
